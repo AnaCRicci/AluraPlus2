@@ -21,11 +21,12 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
 }
 .container-botao{
     background-color: var(--botao-azul);
@@ -53,4 +54,14 @@ body{
 }
 .container-caixa{
     margin: 0 6em;
+}
+.imagem-secundaria{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descriçao-titulo{
+    font-weight: ;
 }
